@@ -1,0 +1,374 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 750957600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Techfios login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_the_Techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3628850300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.methodName()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "User should be able to login with correct credential",
+        "description": "",
+        "id": "techfios-other-login-validation;user-should-be-able-to-login-with-correct-credential;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 839558200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3253918200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3107098200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3917649900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on the \"\u003clogin\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003clogin\u003e",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginStepDefinition.user_clicks_on_the(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2022884800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should land on dashboard page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 500704400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on \"\u003cbankCash\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cbankCash\u003e",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginStepDefinition.user_clicks_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 448319700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on \"\u003cnewAccount\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cnewAccount\u003e",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginStepDefinition.user_clicks_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147712100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enter accountTitle \"techAccount\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "techAccount",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_accountTitle_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167635400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter description \"my savings\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "my savings",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_description_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128624000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enter initialBalance \"200000\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200000",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_initialBalance_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114966700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enter accountNumber \"4567534\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4567534",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_accountNumber_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163047100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enter contactPerson \"myself\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "myself",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_contactPerson_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136764100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enter contactPhone \"345-345-3453\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "345-345-3453",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_contactPhone_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143087500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enter url \"techfios.com\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "techfios.com",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_url_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 912756300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks on  \"\u003cnewAccount\u003e\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cnewAccount\u003e",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginStepDefinition.user_clicks_on_in_accounts_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2870802900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User should be able to validate account created successfully",
+            "match": {
+              "location": "LoginStepDefinition.user_should_be_able_to_validate_account_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@OtherLoginFeature"
+          },
+          {
+            "line": 1,
+            "name": "@Regression"
+          },
+          {
+            "line": 7,
+            "name": "@ExampleScenario1"
+          }
+        ]
+      }
+    ],
+    "name": "TechFios Other Login validation",
+    "description": "",
+    "id": "techfios-other-login-validation",
+    "keyword": "Feature",
+    "uri": "features/Example.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@OtherLoginFeature"
+      },
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]
